@@ -10,6 +10,6 @@ public class Controller {
 	@GetMapping(value="test1")
 	public String m1() {
 		System.out.println("------ m1()");
-		return "m1() 응답4";
+		return "m1() 응답5";
 	}
 }
